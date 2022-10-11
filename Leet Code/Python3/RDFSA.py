@@ -15,6 +15,14 @@ class Solution:
         return j
 
 
+# Easiest Solution
+"""
+class Solution:
+    def removeDuplicates(self, nums)->int:
+        return len(set(nums))
+
+Basically we are converting the given array into set and returning the length of the array"""
+
 if __name__ == "__main__":
     for _ in range(int(input())):
         list.append(int(input()))
