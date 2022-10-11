@@ -1,3 +1,4 @@
+""" simply we convert the given list into integer add 1 to the number and then convert the number back to list and return the list"""
 def plusOne(digits):
     nums = 0
     for i in digits:
