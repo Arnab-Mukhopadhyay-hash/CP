@@ -14,7 +14,6 @@ class Solution:
             j = j+1
         return j
 
-
 # Easiest Solution
 """
 class Solution:
