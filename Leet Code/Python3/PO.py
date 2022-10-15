@@ -12,6 +12,9 @@ def plusOne(digits):
 
 
 if __name__ == "__main__":
+    # t -> test cases
+    # n -> length of list
+    # li -> list of digits
     t = int(input())
     for _ in range(t):
         n = int(input())
