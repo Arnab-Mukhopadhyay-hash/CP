@@ -14,7 +14,9 @@ vector<string> split(const string &);
  */
 
 int simpleArraySum(vector<int> ar) {
-
+	int sum = 0;
+	for(auto i: ar) sum += i;
+	return sum;
 }
 
 int main()
