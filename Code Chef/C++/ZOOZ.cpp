@@ -7,24 +7,19 @@ int main(){
 		int n;
 		cin>>n;
 		string s;
-		int i = 0;
-		int f = 0;
-		while(i < n){
-			if(f == 0) {
+		if(n%2 == 0){
+			for(int i = 0; i < n-2; i++){
+				s += "0";
+			}
+			s = "1" + s + "1";
+		}
+		else{
+			for(int i = 0; i < n/2; i++){
 				s += "01";
-				f++
 			}
-			else if(f == 1){
-				 s += "10";
-				 f--;
-			}
-			i+=2;
+			s += "0";
 		}
-		string str;
-		for(int i = 0; i<n;i++){
-			str += s[i];
-		}
-		cout<<str<<endl;
+		cout<<s<<endl;
 	}
 	return 0;
 }
